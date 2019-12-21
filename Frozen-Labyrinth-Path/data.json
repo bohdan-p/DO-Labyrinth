@@ -1,0 +1,386 @@
+﻿{
+  "Persei TL": {
+    "TL": "Auriga BR",
+    "TR": "Sadatoni BR",
+    "BR": "Sirius BR",
+    "BL": "Helvetica TR"
+  },
+  "Persei TR": {
+    "TL": "Sadatoni TL",
+    "TR": "Sadatoni BR",
+    "BR": "Helvetica BL",
+    "BL": "Volantis TR"
+  },
+  "Persei BR": {
+    "TL": "Cygni TL",
+    "TR": "Eridani BR",
+    "BR": "Auriga TL",
+    "BL": "ATLAS C BR"
+  },
+  "Persei BL": {
+    "TL": "ATLAS A TR",
+    "TR": "Cygni BR",
+    "BR": "",
+    "BL": "ATLAS C TL"
+  },
+  "Sadatoni TL": {
+    "TL": "Volantis TL",
+    "TR": "Aquila TR",
+    "BR": "",
+    "BL": "Persei TR"
+  },
+  "Sadatoni TR": {
+    "TL": "Volantis TR",
+    "TR": "Maia BR",
+    "BR": "Cygni BR",
+    "BL": "Sirius TR"
+  },
+  "Sadatoni BR": {
+    "TL": "Persei TR",
+    "TR": "Aquila TR",
+    "BR": "Eridani BR",
+    "BL": "Persei TL"
+  },
+  "Sadatoni BL": {
+    "TL": "",
+    "TR": "",
+    "BR": "",
+    "BL": "Alcyone BL"
+  },
+  "Sirius TL": {
+    "TL": "Aquila BR",
+    "TR": "ATLAS B BR",
+    "BR": "Eridani TL",
+    "BL": "Eridani TR"
+  },
+  "Sirius TR": {
+    "TL": "Sadatoni TR",
+    "TR": "Eridani BL",
+    "BR": "Auriga TL",
+    "BL": "ATLAS A BR"
+  },
+  "Sirius BR": {
+    "TL": "Persei TL",
+    "TR": "",
+    "BR": "Volantis BL",
+    "BL": ""
+  },
+  "Sirius BL": {
+    "TL": "Maia BL",
+    "TR": "Alcyone BL",
+    "BR": "Helvetica BL",
+    "BL": "Cygni BR"
+  },
+  "Volantis TL": {
+    "TL": "",
+    "TR": "ATLAS C BL",
+    "BR": "Helvetica BR",
+    "BL": "Sadatoni TL"
+  },
+  "Volantis TR": {
+    "TL": "Sadatoni TR",
+    "TR": "Auriga BL",
+    "BR": "Bootes BR",
+    "BL": "Persei TR"
+  },
+  "Volantis BR": {
+    "TL": "Eridani BL",
+    "TR": "Orion TR",
+    "BR": "ATLAS A TL",
+    "BL": "Auriga BL"
+  },
+  "Volantis BL": {
+    "TL": "Helvetica TR",
+    "TR": "",
+    "BR": "Sirius BR",
+    "BL": "Eridani TL"
+  },
+  "ATLAS A TL": {
+    "TL": "Volantis BR",
+    "TR": "Bootes BL",
+    "BR": "",
+    "BL": ""
+  },
+  "ATLAS A TR": {
+    "TL": "",
+    "TR": "",
+    "BR": "Persei BL",
+    "BL": "ATLAS B BL"
+  },
+  "ATLAS A BR": {
+    "TL": "ATLAS C BR",
+    "TR": "",
+    "BR": "Sirius TR",
+    "BL": "Orion BR"
+  },
+  "ATLAS A BL": {
+    "TL": "Orion TL",
+    "TR": "",
+    "BR": "",
+    "BL": "Cygni TR"
+  },
+  "ATLAS B TL": {
+    "TL": "Cygni TR",
+    "TR": "Auriga BR",
+    "BR": "Maia BR",
+    "BL": "Maia TL"
+  },
+  "ATLAS B TR": {
+    "TL": "",
+    "TR": "Bootes TL",
+    "BR": "Orion BL",
+    "BL": ""
+  },
+  "ATLAS B BR": {
+    "TL": "Sirius TL",
+    "TR": "Maia BL",
+    "BR": "",
+    "BL": "Eridani TR"
+  },
+  "ATLAS B BL": {
+    "TL": "ATLAS A TR",
+    "TR": "ATLAS C BR",
+    "BR": "",
+    "BL": ""
+  },
+  "ATLAS C TL": {
+    "TL": "Cygni BL",
+    "TR": "",
+    "BR": "",
+    "BL": "Persei BL"
+  },
+  "ATLAS C TR": {
+    "TL": "Eridani TL",
+    "TR": "Alcyone BR",
+    "BR": "Auriga TR",
+    "BL": "Auriga BL"
+  },
+  "ATLAS C BR": {
+    "TL": "ATLAS A BR",
+    "TR": "Persei BR",
+    "BR": "ATLAS B BL",
+    "BL": ""
+  },
+  "ATLAS C BL": {
+    "TL": "Maia TL",
+    "TR": "Volantis TL",
+    "BR": "Orion TR",
+    "BL": "Bootes TR"
+  },
+  "Aquila TL": {
+    "TL": "",
+    "TR": "",
+    "BR": "Bootes BR",
+    "BL": "Eridani BR"
+  },
+  "Aquila TR": {
+    "TL": "Auriga BL",
+    "TR": "Sadatoni TL",
+    "BR": "Sadatoni BR",
+    "BL": "Eridani BL"
+  },
+  "Aquila BR": {
+    "TL": "",
+    "TR": "",
+    "BR": "Sirius TL",
+    "BL": "Bootes TL"
+  },
+  "Aquila BL": {
+    "TL": "Alcyone BR",
+    "TR": "Orion BR",
+    "BR": "",
+    "BL": "Eridani TR"
+  },
+  "Alcyone TL": {
+    "TL": "",
+    "TR": "",
+    "BR": "",
+    "BL": "Bootes TR"
+  },
+  "Alcyone TR": {
+    "TL": "",
+    "TR": "",
+    "BR": "Bootes BR",
+    "BL": "Helvetica BR"
+  },
+  "Alcyone BR": {
+    "TL": "Helvetica BR",
+    "TR": "Aquila BL",
+    "BR": "Maia BR",
+    "BL": "ATLAS C TR"
+  },
+  "Alcyone BL": {
+    "TL": "Sadatoni BL",
+    "TR": "Sirius BL",
+    "BR": "Helvetica TL",
+    "BL": "Maia TR"
+  },
+  "Orion TL": {
+    "TL": "Maia BL",
+    "TR": "",
+    "BR": "Maia TR",
+    "BL": "ATLAS A BL"
+  },
+  "Orion TR": {
+    "TL": "Maia BR",
+    "TR": "ATLAS C BL",
+    "BR": "Helvetica TL",
+    "BL": "Volantis BR"
+  },
+  "Orion BR": {
+    "TL": "Cygni TL",
+    "TR": "ATLAS A BR",
+    "BR": "Aquila BL",
+    "BL": "Auriga TR"
+  },
+  "Orion BL": {
+    "TL": "ATLAS B TR",
+    "TR": "Maia TR",
+    "BR": "Auriga TL",
+    "BL": "Bootes TR"
+  },
+  "Auriga TL": {
+    "TL": "Sirius TR",
+    "TR": "Orion BL",
+    "BR": "Persei BR",
+    "BL": "Orion BL"
+  },
+  "Auriga TR": {
+    "TL": "",
+    "TR": "Orion BR",
+    "BR": "",
+    "BL": "ATLAS C TR"
+  },
+  "Auriga BR": {
+    "TL": "Persei TL",
+    "TR": "Cygni BL",
+    "BR": "",
+    "BL": "ATLAS B TL"
+  },
+  "Auriga BL": {
+    "TL": "Volantis BR",
+    "TR": "Aquila TR",
+    "BR": "ATLAS C TR",
+    "BL": "Volantis TR"
+  },
+  "Maia TL": {
+    "TL": "",
+    "TR": "ATLAS C BL",
+    "BR": "Eridani BR",
+    "BL": "ATLAS B TL"
+  },
+  "Maia TR": {
+    "TL": "Alcyone BL",
+    "TR": "Orion TL",
+    "BR": "Orion BL",
+    "BL": "Cygni TL"
+  },
+  "Maia BR": {
+    "TL": "Alcyone BR",
+    "TR": "ATLAS B TL",
+    "BR": "Orion TR",
+    "BL": "Sadatoni TR"
+  },
+  "Maia BL": {
+    "TL": "Bootes TL",
+    "TR": "ATLAS B BR",
+    "BR": "Sirius BL",
+    "BL": "Orion TL"
+  },
+  "Bootes TL": {
+    "TL": "ATLAS B TR",
+    "TR": "Bootes BR",
+    "BR": "Maia BL",
+    "BL": "Aquila BR"
+  },
+  "Bootes TR": {
+    "TL": "Alcyone TL",
+    "TR": "",
+    "BR": "Orion BL",
+    "BL": "ATLAS C BL"
+  },
+  "Bootes BR": {
+    "TL": "Alcyone TR",
+    "TR": "Volantis TR",
+    "BR": "Bootes TL",
+    "BL": "Aquila TL"
+  },
+  "Bootes BL": {
+    "TL": "Eridani TL",
+    "TR": "",
+    "BR": "",
+    "BL": "ATLAS A TL"
+  },
+  "Cygni TL": {
+    "TL": "Persei BR",
+    "TR": "Orion BR",
+    "BR": "Maia TR",
+    "BL": ""
+  },
+  "Cygni TR": {
+    "TL": "",
+    "TR": "ATLAS B TL",
+    "BR": "ATLAS A BL",
+    "BL": "Helvetica TL"
+  },
+  "Cygni BR": {
+    "TL": "Eridani BL",
+    "TR": "Sirius BL",
+    "BR": "Sadatoni TR",
+    "BL": "Persei BL"
+  },
+  "Cygni BL": {
+    "TL": "",
+    "TR": "",
+    "BR": "Auriga BR",
+    "BL": "ATLAS C TL"
+  },
+  "Eridani TL": {
+    "TL": "ATLAS C TR",
+    "TR": "Sirius TL",
+    "BR": "Bootes BL",
+    "BL": "Volantis BL"
+  },
+  "Eridani TR": {
+    "TL": "Sirius TL",
+    "TR": "ATLAS B BR",
+    "BR": "Aquila BL",
+    "BL": ""
+  },
+  "Eridani BR": {
+    "TL": "Persei BR",
+    "TR": "Sadatoni BR",
+    "BR": "Aquila TL",
+    "BL": "Maia TL"
+  },
+  "Eridani BL": {
+    "TL": "Volantis BR",
+    "TR": "Aquila TR",
+    "BR": "Sirius TR",
+    "BL": "Cygni BR"
+  },
+  "Helvetica TL": {
+    "TL": "Orion TR",
+    "TR": "Helvetica BR",
+    "BR": "Cygni TR",
+    "BL": "Alcyone BL"
+  },
+  "Helvetica TR": {
+    "TL": "",
+    "TR": "",
+    "BR": "Volantis BL",
+    "BL": "Persei TL"
+  },
+  "Helvetica BR": {
+    "TL": "Alcyone TR",
+    "TR": "Volantis TL",
+    "BR": "Alcyone BR",
+    "BL": "Helvetica TL"
+  },
+  "Helvetica BL": {
+    "TL": "Persei TR",
+    "TR": "",
+    "BR": "",
+    "BL": "Sirius BL"
+  }
+}
