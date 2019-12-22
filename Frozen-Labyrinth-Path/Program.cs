@@ -9,25 +9,58 @@ namespace Frozen_Labyrinth_Path
     {
         static void Main(string[] args)
         {
-            var origin = File.ReadAllText("data.json");
-            var json = JsonConvert.DeserializeObject<Dictionary<string, Map>>(origin);
-            verifyJson(json);
-
-            Console.WriteLine("Your position: ");
-            var start = Console.ReadLine();
-
-            Console.WriteLine("Where you want to go: ");
-            var finish = Console.ReadLine();
-
-            var isFound = findPath(start, finish, json);
-
-            if (isFound)
+            while (true)
             {
-                printPath(finish, json);
-            }
+                try
+                {
+                    var origin = File.ReadAllText("data.json");
+                    var json = JsonConvert.DeserializeObject<Dictionary<string, Map>>(origin);
+                    verifyJson(json);
 
-            Console.WriteLine(isFound);
-            Console.ReadLine();
+                    Console.WriteLine("Your position: ");
+                    var start = Console.ReadLine();
+                    validateMap(start, json);
+
+                    Console.WriteLine("Where you want to go: ");
+                    var finish = Console.ReadLine();
+
+                    var foundMap = findPath(start, finish, json);
+
+                    if (!string.IsNullOrEmpty(foundMap))
+                    {
+                        printPath(foundMap, json);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Path not found!");
+                        continue;
+                    }
+
+                    Console.WriteLine("Hit enter to search path again or type Q and hit enter to quit:");
+                    var response = Console.ReadLine();
+                    if (!string.IsNullOrEmpty(response))
+                    {
+                        return;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    //Console.WriteLine(ex.Message);
+                }
+            }
+        }
+
+        public static void validateMap(string map, Dictionary<string, Map> json)
+        {
+            if (!json.TryGetValue(map, out var value))
+            {
+                Console.WriteLine("Maps:");
+                foreach (var pair in json)
+                {
+                    Console.WriteLine(pair.Key);
+                }
+                throw new Exception();
+            }
         }
 
         public static void verifyJson(Dictionary<string, Map> json)
@@ -74,7 +107,7 @@ namespace Frozen_Labyrinth_Path
             }
         }
 
-        public static bool findPath(string start, string finish, Dictionary<string, Map> json)
+        public static string findPath(string start, string finish, Dictionary<string, Map> json)
         {
             var queue = new Queue<string>();
             queue.Enqueue(start);
@@ -83,9 +116,9 @@ namespace Frozen_Labyrinth_Path
             while (queue.Count > 0)
             {
                 var map = queue.Dequeue();
-                if (map == finish)
+                if (map.Contains(finish))
                 {
-                    return true;
+                    return map;
                 }
                 else
                 {
@@ -107,7 +140,7 @@ namespace Frozen_Labyrinth_Path
                 }
             }
 
-            return false;
+            return null;
         }
 
         public static void printPath(string finish, Dictionary<string, Map> json)
@@ -122,7 +155,8 @@ namespace Frozen_Labyrinth_Path
                 curr = json[curr].Parent;
             }
 
-            Console.WriteLine(path);
+            Console.WriteLine("\n Shortest path:");
+            Console.WriteLine(path + "\n");
         }
     }
 

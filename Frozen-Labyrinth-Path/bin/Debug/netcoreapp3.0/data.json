@@ -216,7 +216,7 @@
     "BL": "Maia TR"
   },
   "Orion TL": {
-    "TL": "",
+    "TL": "Auriga BR",
     "TR": "ATLAS C TL",
     "BR": "Cygni TR",
     "BL": "ATLAS A BL"
@@ -236,12 +236,12 @@
   "Orion BL": {
     "TL": "ATLAS B TR",
     "TR": "Maia TR",
-    "BR": "",
+    "BR": "Auriga TL",
     "BL": "Sadatoni BL"
   },
   "Auriga TL": {
     "TL": "Sirius TR",
-    "TR": "",
+    "TR": "Orion BL",
     "BR": "Persei BL",
     "BL": "Persei BR"
   },
@@ -254,7 +254,7 @@
   "Auriga BR": {
     "TL": "Persei TL",
     "TR": "Cygni BL",
-    "BR": "",
+    "BR": "Orion TL",
     "BL": "ATLAS B TL"
   },
   "Auriga BL": {
