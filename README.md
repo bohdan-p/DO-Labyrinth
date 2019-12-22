@@ -30,7 +30,7 @@ and you will get a list of actions to get to destination.
 - BL = Bottom Left
 
 ### Sample runs:
-```
+<pre>
 Auriga TR
 Where you want to go:
 BR
@@ -57,4 +57,7 @@ Maia
 
  Shortest path:
 --[]->Auriga TR--[TL]->Maia BL
-```
+</pre>
+### Download
+
+[Built exe](https://drive.google.com/open?id=1jmXntQPPv12HLaAMtyk1DgNcbO1uR0_A)
